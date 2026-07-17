@@ -39,22 +39,21 @@ O Dashboard consome de forma assíncrona o arquivo tratado e hospedado dinamicam
    cd DashBoard-Salarios-de-TI
    
 2. Crie e ative seu ambiente virtual (recomendado):
-
-Bash    
-python -m venv .venv     
-source .venv/bin/activate  
-# No Windows use:      
-.venv\Scripts\activate       
+   ```Bash    
+   python -m venv .venv       
+   source .venv/bin/activate     
+  **No Windows use:**
+  ```Bash
+   .venv\Scripts\activate       
+  ```
 
 3. Instale as dependências:
-
-Bash
-pip install streamlit pandas plotly
+   ```bash
+   pip install -r requirements.txt      
 
 4. Execute o aplicativo Streamlit:
-
-Bash     
-streamlit run app.py       
+   ```Bash     
+   streamlit run app.py         
 
 ---
 
