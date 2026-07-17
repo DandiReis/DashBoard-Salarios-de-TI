@@ -58,5 +58,5 @@ O Dashboard consome de forma assíncrona o arquivo tratado e hospedado dinamicam
 ---
 
 ## 🔗 Pipeline de Dados Relacionado
-O processo de higienização, tradução e estruturação dos dados que abastecem este Dashboard está hospedado no repositório dedicado ao pipeline de dados:
+O processo de higienização, tradução e estruturação dos dados que abastecem este Dashboard está hospedado no repositório dedicado ao pipeline de dados:   
 👉 **[Limpeza-Plotagem-Dados](https://github.com/DandiReis/Limpeza-Plotagem-Dados)**
