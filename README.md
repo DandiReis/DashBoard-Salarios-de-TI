@@ -41,22 +41,22 @@ O Dashboard consome de forma assíncrona o arquivo tratado e hospedado dinamicam
 2. Crie e ative seu ambiente virtual (recomendado):
    ```Bash    
    python -m venv .venv       
-   source .venv/bin/activate     
-  **No Windows use:**
-  ```Bash
+   source .venv/bin/activate
+   ```    
+   **No Windows use:**
+   ```Bash
    .venv\Scripts\activate       
-  ```
+   ```
 
-3. Instale as dependências:
+4. Instale as dependências:
    ```bash
    pip install -r requirements.txt      
 
-4. Execute o aplicativo Streamlit:
+5. Execute o aplicativo Streamlit:
    ```Bash     
    streamlit run app.py         
-
 ---
 
-🔗 Pipeline de Dados Relacionado
+## 🔗 Pipeline de Dados Relacionado
 O processo de higienização, tradução e estruturação dos dados que abastecem este Dashboard está hospedado no repositório dedicado ao pipeline de dados:
-👉 Limpeza-Plotagem-Dados
+👉 **[Limpeza-Plotagem-Dados](https://github.com/DandiReis/Limpeza-Plotagem-Dados)**
